@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/embedded/E1FP/E1FP.ip_user_files/bd/design_2/sim/design_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/embedded/E1FP/E1FP.gen/sources_1/bd/design_2/hdl/design_2_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2_wrapper'

@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_2_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="design_2_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="199,385.697 ns"></ZoomStartTime>
+      <ZoomEndTime time="200,245.336 ns"></ZoomEndTime>
+      <Cursor1Time time="199,735.577 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="356"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="435" />
+   <wvobject fp_name="/design_2_wrapper/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/rom_addr" type="array">
+      <obj_property name="ElementShortName">rom_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_addr[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/rom_dout" type="array">
+      <obj_property name="ElementShortName">rom_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/ram_din" type="array">
+      <obj_property name="ElementShortName">ram_din[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_din[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/ram_we" type="logic">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points3d_init_0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_rom_0/douta" type="array">
+      <obj_property name="ElementShortName">douta[47:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/PmodKYPD_0/decoding" type="array">
+      <obj_property name="ElementShortName">decoding[3:0]</obj_property>
+      <obj_property name="ObjectShortName">decoding[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_write_mux_0/rotate_writing" type="logic">
+      <obj_property name="ElementShortName">rotate_writing</obj_property>
+      <obj_property name="ObjectShortName">rotate_writing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_write_mux_0/init_writing" type="logic">
+      <obj_property name="ElementShortName">init_writing</obj_property>
+      <obj_property name="ObjectShortName">init_writing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x" type="array">
+      <obj_property name="ElementShortName">x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z" type="array">
+      <obj_property name="ElementShortName">z[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_raddr" type="array">
+      <obj_property name="ElementShortName">ram_raddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_raddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_dout" type="array">
+      <obj_property name="ElementShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_raddr" type="array">
+      <obj_property name="ElementShortName">ram_raddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_raddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_dout" type="array">
+      <obj_property name="ElementShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_waddr" type="array">
+      <obj_property name="ElementShortName">ram_waddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_waddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_din" type="array">
+      <obj_property name="ElementShortName">ram_din[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_din[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_we" type="logic">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/writing" type="logic">
+      <obj_property name="ElementShortName">writing</obj_property>
+      <obj_property name="ObjectShortName">writing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/rotating" type="logic">
+      <obj_property name="ElementShortName">rotating</obj_property>
+      <obj_property name="ObjectShortName">rotating</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/triggered" type="logic">
+      <obj_property name="ElementShortName">triggered</obj_property>
+      <obj_property name="ObjectShortName">triggered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/dones" type="logic">
+      <obj_property name="ElementShortName">dones</obj_property>
+      <obj_property name="ObjectShortName">dones</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x" type="array">
+      <obj_property name="ElementShortName">x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z" type="array">
+      <obj_property name="ElementShortName">z[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_ext" type="array">
+      <obj_property name="ElementShortName">x_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_ext" type="array">
+      <obj_property name="ElementShortName">y_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_cos" type="array">
+      <obj_property name="ElementShortName">x_cos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_cos[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_sin" type="array">
+      <obj_property name="ElementShortName">y_sin[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sin[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_cos" type="array">
+      <obj_property name="ElementShortName">y_cos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_cos[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_sin" type="array">
+      <obj_property name="ElementShortName">x_sin[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sin[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/stage" type="other">
+      <obj_property name="ElementShortName">stage</obj_property>
+      <obj_property name="ObjectShortName">stage</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/addra" type="array">
+      <obj_property name="ElementShortName">addra[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/douta" type="array">
+      <obj_property name="ElementShortName">douta[47:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[47:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_read_mux_0/project_reading" type="logic">
+      <obj_property name="ElementShortName">project_reading</obj_property>
+      <obj_property name="ObjectShortName">project_reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_read_mux_0/rotate_reading" type="logic">
+      <obj_property name="ElementShortName">rotate_reading</obj_property>
+      <obj_property name="ObjectShortName">rotate_reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_read_mux_0/project_addr" type="array">
+      <obj_property name="ElementShortName">project_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">project_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_read_mux_0/rotate_addr" type="array">
+      <obj_property name="ElementShortName">rotate_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">rotate_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/ram_read_mux_0/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/ram3d_addr" type="array">
+      <obj_property name="ElementShortName">ram3d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/ram3d_dout" type="array">
+      <obj_property name="ElementShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/ram2d_din" type="array">
+      <obj_property name="ElementShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/ram2d_we" type="logic">
+      <obj_property name="ElementShortName">ram2d_we</obj_property>
+      <obj_property name="ObjectShortName">ram2d_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/reading" type="logic">
+      <obj_property name="ElementShortName">reading</obj_property>
+      <obj_property name="ObjectShortName">reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/addra" type="array">
+      <obj_property name="ElementShortName">addra[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_addr" type="array">
+      <obj_property name="ElementShortName">ram3d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_dout" type="array">
+      <obj_property name="ElementShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_dout[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_din" type="array">
+      <obj_property name="ElementShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_we" type="logic">
+      <obj_property name="ElementShortName">ram2d_we</obj_property>
+      <obj_property name="ObjectShortName">ram2d_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/reading" type="logic">
+      <obj_property name="ElementShortName">reading</obj_property>
+      <obj_property name="ObjectShortName">reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_sum" type="array">
+      <obj_property name="ElementShortName">x_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sum[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_sum" type="array">
+      <obj_property name="ElementShortName">y_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sum[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/z_sum" type="array">
+      <obj_property name="ElementShortName">z_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z_sum[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/FOCAL_Q88" type="other">
+      <obj_property name="ElementShortName">FOCAL_Q88</obj_property>
+      <obj_property name="ObjectShortName">FOCAL_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/Z_OFFSET_Q88" type="other">
+      <obj_property name="ElementShortName">Z_OFFSET_Q88</obj_property>
+      <obj_property name="ObjectShortName">Z_OFFSET_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/addra" type="array">
+      <obj_property name="ElementShortName">addra[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/douta" type="array">
+      <obj_property name="ElementShortName">douta[47:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_3d_ram_0/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[47:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_addr" type="array">
+      <obj_property name="ElementShortName">ram3d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_dout" type="array">
+      <obj_property name="ElementShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_dout[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_din" type="array">
+      <obj_property name="ElementShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_we" type="logic">
+      <obj_property name="ElementShortName">ram2d_we</obj_property>
+      <obj_property name="ObjectShortName">ram2d_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/reading" type="logic">
+      <obj_property name="ElementShortName">reading</obj_property>
+      <obj_property name="ObjectShortName">reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_sum" type="array">
+      <obj_property name="ElementShortName">x_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sum[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_sum" type="array">
+      <obj_property name="ElementShortName">y_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sum[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/z_sum" type="array">
+      <obj_property name="ElementShortName">z_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z_sum[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_c_ext" type="array">
+      <obj_property name="ElementShortName">x_c_ext[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_c_ext[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_c_ext" type="array">
+      <obj_property name="ElementShortName">y_c_ext[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_c_ext[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_c" type="array">
+      <obj_property name="ElementShortName">x_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_c" type="array">
+      <obj_property name="ElementShortName">y_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/z_c" type="array">
+      <obj_property name="ElementShortName">z_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z_c[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/u_tmp" type="array">
+      <obj_property name="ElementShortName">u_tmp[47:0]</obj_property>
+      <obj_property name="ObjectShortName">u_tmp[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/v_tmp" type="array">
+      <obj_property name="ElementShortName">v_tmp[47:0]</obj_property>
+      <obj_property name="ObjectShortName">v_tmp[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/FOCAL_Q88" type="other">
+      <obj_property name="ElementShortName">FOCAL_Q88</obj_property>
+      <obj_property name="ObjectShortName">FOCAL_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/Z_OFFSET_Q88" type="other">
+      <obj_property name="ElementShortName">Z_OFFSET_Q88</obj_property>
+      <obj_property name="ObjectShortName">Z_OFFSET_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_ram_0/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/FOCAL_Q88" type="other">
+      <obj_property name="ElementShortName">FOCAL_Q88</obj_property>
+      <obj_property name="ObjectShortName">FOCAL_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/Z_OFFSET_Q88" type="other">
+      <obj_property name="ElementShortName">Z_OFFSET_Q88</obj_property>
+      <obj_property name="ObjectShortName">Z_OFFSET_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_addr" type="array">
+      <obj_property name="ElementShortName">ram3d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram3d_dout" type="array">
+      <obj_property name="ElementShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram3d_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_din" type="array">
+      <obj_property name="ElementShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_din[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/ram2d_we" type="logic">
+      <obj_property name="ElementShortName">ram2d_we</obj_property>
+      <obj_property name="ObjectShortName">ram2d_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/reading" type="logic">
+      <obj_property name="ElementShortName">reading</obj_property>
+      <obj_property name="ObjectShortName">reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_sum" type="array">
+      <obj_property name="ElementShortName">x_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_sum" type="array">
+      <obj_property name="ElementShortName">y_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/z_sum" type="array">
+      <obj_property name="ElementShortName">z_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z_sum[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_c" type="array">
+      <obj_property name="ElementShortName">x_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_c[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_c" type="array">
+      <obj_property name="ElementShortName">y_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/z_c" type="array">
+      <obj_property name="ElementShortName">z_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z_c[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/x_c_ext" type="array">
+      <obj_property name="ElementShortName">x_c_ext[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_c_ext[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/y_c_ext" type="array">
+      <obj_property name="ElementShortName">y_c_ext[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_c_ext[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/u_tmp" type="array">
+      <obj_property name="ElementShortName">u_tmp[47:0]</obj_property>
+      <obj_property name="ObjectShortName">u_tmp[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/v_tmp" type="array">
+      <obj_property name="ElementShortName">v_tmp[47:0]</obj_property>
+      <obj_property name="ObjectShortName">v_tmp[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/FOCAL_Q88" type="other">
+      <obj_property name="ElementShortName">FOCAL_Q88</obj_property>
+      <obj_property name="ObjectShortName">FOCAL_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/Z_OFFSET_Q88" type="other">
+      <obj_property name="ElementShortName">Z_OFFSET_Q88</obj_property>
+      <obj_property name="ObjectShortName">Z_OFFSET_Q88</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/project_points_0/U0/FOCAL_S48" type="array">
+      <obj_property name="ElementShortName">FOCAL_S48[47:0]</obj_property>
+      <obj_property name="ObjectShortName">FOCAL_S48[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/addra" type="array">
+      <obj_property name="ElementShortName">addra[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/douta" type="array">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/ram2d_dout" type="array">
+      <obj_property name="ElementShortName">ram2d_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_addr" type="array">
+      <obj_property name="ElementShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_din" type="array">
+      <obj_property name="ElementShortName">fb_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_we" type="logic">
+      <obj_property name="ElementShortName">fb_we</obj_property>
+      <obj_property name="ObjectShortName">fb_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/st" type="other">
+      <obj_property name="ElementShortName">st</obj_property>
+      <obj_property name="ObjectShortName">st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/pt_idx" type="array">
+      <obj_property name="ElementShortName">pt_idx[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pt_idx[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_idx" type="array">
+      <obj_property name="ElementShortName">fb_idx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_idx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_w_q1616" type="array">
+      <obj_property name="ElementShortName">scale_w_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_w_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_h_q1616" type="array">
+      <obj_property name="ElementShortName">scale_h_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_h_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_q1616" type="array">
+      <obj_property name="ElementShortName">scale_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/DEPTH_3D" type="other">
+      <obj_property name="ElementShortName">DEPTH_3D</obj_property>
+      <obj_property name="ObjectShortName">DEPTH_3D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FB_W" type="other">
+      <obj_property name="ElementShortName">FB_W</obj_property>
+      <obj_property name="ObjectShortName">FB_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FB_H" type="other">
+      <obj_property name="ElementShortName">FB_H</obj_property>
+      <obj_property name="ObjectShortName">FB_H</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FRAC_BITS" type="other">
+      <obj_property name="ElementShortName">FRAC_BITS</obj_property>
+      <obj_property name="ObjectShortName">FRAC_BITS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/WHITE" type="array">
+      <obj_property name="ElementShortName">WHITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WHITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_addr" type="array">
+      <obj_property name="ElementShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/ram2d_addr" type="array">
+      <obj_property name="ElementShortName">ram2d_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/ram2d_dout" type="array">
+      <obj_property name="ElementShortName">ram2d_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2d_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_addr" type="array">
+      <obj_property name="ElementShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_din" type="array">
+      <obj_property name="ElementShortName">fb_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_we" type="logic">
+      <obj_property name="ElementShortName">fb_we</obj_property>
+      <obj_property name="ObjectShortName">fb_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/st" type="other">
+      <obj_property name="ElementShortName">st</obj_property>
+      <obj_property name="ObjectShortName">st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/pt_idx" type="array">
+      <obj_property name="ElementShortName">pt_idx[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pt_idx[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/fb_idx" type="array">
+      <obj_property name="ElementShortName">fb_idx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_idx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_w_q1616" type="array">
+      <obj_property name="ElementShortName">scale_w_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_w_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_h_q1616" type="array">
+      <obj_property name="ElementShortName">scale_h_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_h_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/scale_q1616" type="array">
+      <obj_property name="ElementShortName">scale_q1616[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_q1616[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/pix_x_reg" type="array">
+      <obj_property name="ElementShortName">pix_x_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_x_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/pix_y_reg" type="array">
+      <obj_property name="ElementShortName">pix_y_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_y_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/range_u32" type="array">
+      <obj_property name="ElementShortName">range_u32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">range_u32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/range_v32" type="array">
+      <obj_property name="ElementShortName">range_v32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">range_v32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/max_u32" type="array">
+      <obj_property name="ElementShortName">max_u32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_u32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/max_v32" type="array">
+      <obj_property name="ElementShortName">max_v32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_v32[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/min_u32" type="array">
+      <obj_property name="ElementShortName">min_u32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_u32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/min_v32" type="array">
+      <obj_property name="ElementShortName">min_v32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_v32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/DEPTH_3D" type="other">
+      <obj_property name="ElementShortName">DEPTH_3D</obj_property>
+      <obj_property name="ObjectShortName">DEPTH_3D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FB_W" type="other">
+      <obj_property name="ElementShortName">FB_W</obj_property>
+      <obj_property name="ObjectShortName">FB_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FB_H" type="other">
+      <obj_property name="ElementShortName">FB_H</obj_property>
+      <obj_property name="ObjectShortName">FB_H</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/FRAC_BITS" type="other">
+      <obj_property name="ElementShortName">FRAC_BITS</obj_property>
+      <obj_property name="ObjectShortName">FRAC_BITS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/normalize_to_fb_0/U0/WHITE" type="array">
+      <obj_property name="ElementShortName">WHITE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WHITE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/vcount" type="array">
+      <obj_property name="ElementShortName">vcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vcount[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/vid" type="logic">
+      <obj_property name="ElementShortName">vid</obj_property>
+      <obj_property name="ObjectShortName">vid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/hs" type="logic">
+      <obj_property name="ElementShortName">hs</obj_property>
+      <obj_property name="ObjectShortName">hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/vga_ctrl_0/vs" type="logic">
+      <obj_property name="ElementShortName">vs</obj_property>
+      <obj_property name="ObjectShortName">vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/vs" type="logic">
+      <obj_property name="ElementShortName">vs</obj_property>
+      <obj_property name="ObjectShortName">vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/vid" type="logic">
+      <obj_property name="ElementShortName">vid</obj_property>
+      <obj_property name="ObjectShortName">vid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/pixel" type="array">
+      <obj_property name="ElementShortName">pixel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/R" type="array">
+      <obj_property name="ElementShortName">R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/B" type="array">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/G" type="array">
+      <obj_property name="ElementShortName">G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">G[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/pixel_pusher_0/addr" type="array">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/addra" type="array">
+      <obj_property name="ElementShortName">addra[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/douta" type="array">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/web" type="array">
+      <obj_property name="ElementShortName">web[0:0]</obj_property>
+      <obj_property name="ObjectShortName">web[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/points_2d_fb/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/enable2" type="logic">
+      <obj_property name="ElementShortName">enable2</obj_property>
+      <obj_property name="ObjectShortName">enable2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_raddr" type="array">
+      <obj_property name="ElementShortName">ram_raddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_raddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_dout" type="array">
+      <obj_property name="ElementShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dout[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_waddr" type="array">
+      <obj_property name="ElementShortName">ram_waddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_waddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_din" type="array">
+      <obj_property name="ElementShortName">ram_din[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_din[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/ram_we" type="logic">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/writing" type="logic">
+      <obj_property name="ElementShortName">writing</obj_property>
+      <obj_property name="ObjectShortName">writing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/reading" type="logic">
+      <obj_property name="ElementShortName">reading</obj_property>
+      <obj_property name="ObjectShortName">reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z_angle_cos" type="array">
+      <obj_property name="ElementShortName">z_angle_cos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z_angle_cos[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z_angle_sin" type="array">
+      <obj_property name="ElementShortName">z_angle_sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z_angle_sin[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_angle_cos" type="array">
+      <obj_property name="ElementShortName">y_angle_cos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_angle_cos[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_angle_sin" type="array">
+      <obj_property name="ElementShortName">y_angle_sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_angle_sin[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_angle_cos" type="array">
+      <obj_property name="ElementShortName">x_angle_cos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_angle_cos[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_angle_sin" type="array">
+      <obj_property name="ElementShortName">x_angle_sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_angle_sin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/rotating" type="logic">
+      <obj_property name="ElementShortName">rotating</obj_property>
+      <obj_property name="ObjectShortName">rotating</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/triggered" type="logic">
+      <obj_property name="ElementShortName">triggered</obj_property>
+      <obj_property name="ObjectShortName">triggered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/dones" type="logic">
+      <obj_property name="ElementShortName">dones</obj_property>
+      <obj_property name="ObjectShortName">dones</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z_rotate" type="other">
+      <obj_property name="ElementShortName">z_rotate</obj_property>
+      <obj_property name="ObjectShortName">z_rotate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_rotate" type="other">
+      <obj_property name="ElementShortName">y_rotate</obj_property>
+      <obj_property name="ObjectShortName">y_rotate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_rotate" type="other">
+      <obj_property name="ElementShortName">x_rotate</obj_property>
+      <obj_property name="ObjectShortName">x_rotate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x" type="array">
+      <obj_property name="ElementShortName">x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z" type="array">
+      <obj_property name="ElementShortName">z[15:0]</obj_property>
+      <obj_property name="ObjectShortName">z[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_ext" type="array">
+      <obj_property name="ElementShortName">x_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_ext[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_ext" type="array">
+      <obj_property name="ElementShortName">y_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_ext[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_cos" type="array">
+      <obj_property name="ElementShortName">x_cos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_cos[47:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_sin" type="array">
+      <obj_property name="ElementShortName">y_sin[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sin[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/y_cos" type="array">
+      <obj_property name="ElementShortName">y_cos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">y_cos[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/x_sin" type="array">
+      <obj_property name="ElementShortName">x_sin[47:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sin[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/z_ext" type="array">
+      <obj_property name="ElementShortName">z_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/stage" type="other">
+      <obj_property name="ElementShortName">stage</obj_property>
+      <obj_property name="ObjectShortName">stage</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/counter" type="other">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/DEPTH" type="other">
+      <obj_property name="ElementShortName">DEPTH</obj_property>
+      <obj_property name="ObjectShortName">DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_0" type="array">
+      <obj_property name="ElementShortName">COS_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_5" type="array">
+      <obj_property name="ElementShortName">COS_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_10" type="array">
+      <obj_property name="ElementShortName">COS_10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_10[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_15" type="array">
+      <obj_property name="ElementShortName">COS_15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_15[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_20" type="array">
+      <obj_property name="ElementShortName">COS_20[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_20[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_25" type="array">
+      <obj_property name="ElementShortName">COS_25[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_25[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_30" type="array">
+      <obj_property name="ElementShortName">COS_30[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_30[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_35" type="array">
+      <obj_property name="ElementShortName">COS_35[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_35[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_40" type="array">
+      <obj_property name="ElementShortName">COS_40[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_40[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_45" type="array">
+      <obj_property name="ElementShortName">COS_45[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_45[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_50" type="array">
+      <obj_property name="ElementShortName">COS_50[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_50[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_55" type="array">
+      <obj_property name="ElementShortName">COS_55[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_55[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_60" type="array">
+      <obj_property name="ElementShortName">COS_60[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_60[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_65" type="array">
+      <obj_property name="ElementShortName">COS_65[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_65[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_70" type="array">
+      <obj_property name="ElementShortName">COS_70[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_70[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_75" type="array">
+      <obj_property name="ElementShortName">COS_75[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_75[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_80" type="array">
+      <obj_property name="ElementShortName">COS_80[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_80[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_85" type="array">
+      <obj_property name="ElementShortName">COS_85[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_85[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_90" type="array">
+      <obj_property name="ElementShortName">COS_90[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_90[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_95" type="array">
+      <obj_property name="ElementShortName">COS_95[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_95[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_100" type="array">
+      <obj_property name="ElementShortName">COS_100[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_100[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_105" type="array">
+      <obj_property name="ElementShortName">COS_105[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_105[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_110" type="array">
+      <obj_property name="ElementShortName">COS_110[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_110[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_115" type="array">
+      <obj_property name="ElementShortName">COS_115[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_115[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_120" type="array">
+      <obj_property name="ElementShortName">COS_120[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_120[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_125" type="array">
+      <obj_property name="ElementShortName">COS_125[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_125[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_130" type="array">
+      <obj_property name="ElementShortName">COS_130[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_130[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_135" type="array">
+      <obj_property name="ElementShortName">COS_135[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_135[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_140" type="array">
+      <obj_property name="ElementShortName">COS_140[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_140[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_145" type="array">
+      <obj_property name="ElementShortName">COS_145[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_145[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_150" type="array">
+      <obj_property name="ElementShortName">COS_150[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_150[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_155" type="array">
+      <obj_property name="ElementShortName">COS_155[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_155[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_160" type="array">
+      <obj_property name="ElementShortName">COS_160[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_160[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_165" type="array">
+      <obj_property name="ElementShortName">COS_165[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_165[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_170" type="array">
+      <obj_property name="ElementShortName">COS_170[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_170[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_175" type="array">
+      <obj_property name="ElementShortName">COS_175[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_175[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_180" type="array">
+      <obj_property name="ElementShortName">COS_180[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_180[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_185" type="array">
+      <obj_property name="ElementShortName">COS_185[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_185[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_190" type="array">
+      <obj_property name="ElementShortName">COS_190[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_190[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_195" type="array">
+      <obj_property name="ElementShortName">COS_195[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_195[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_200" type="array">
+      <obj_property name="ElementShortName">COS_200[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_200[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_205" type="array">
+      <obj_property name="ElementShortName">COS_205[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_205[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_210" type="array">
+      <obj_property name="ElementShortName">COS_210[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_210[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_215" type="array">
+      <obj_property name="ElementShortName">COS_215[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_215[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_220" type="array">
+      <obj_property name="ElementShortName">COS_220[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_220[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_225" type="array">
+      <obj_property name="ElementShortName">COS_225[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_225[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_230" type="array">
+      <obj_property name="ElementShortName">COS_230[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_230[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_235" type="array">
+      <obj_property name="ElementShortName">COS_235[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_235[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_240" type="array">
+      <obj_property name="ElementShortName">COS_240[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_240[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_245" type="array">
+      <obj_property name="ElementShortName">COS_245[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_245[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_250" type="array">
+      <obj_property name="ElementShortName">COS_250[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_250[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_255" type="array">
+      <obj_property name="ElementShortName">COS_255[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_255[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_260" type="array">
+      <obj_property name="ElementShortName">COS_260[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_260[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_265" type="array">
+      <obj_property name="ElementShortName">COS_265[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_265[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_270" type="array">
+      <obj_property name="ElementShortName">COS_270[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_270[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_275" type="array">
+      <obj_property name="ElementShortName">COS_275[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_275[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_280" type="array">
+      <obj_property name="ElementShortName">COS_280[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_280[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_285" type="array">
+      <obj_property name="ElementShortName">COS_285[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_285[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_290" type="array">
+      <obj_property name="ElementShortName">COS_290[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_290[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_295" type="array">
+      <obj_property name="ElementShortName">COS_295[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_295[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_300" type="array">
+      <obj_property name="ElementShortName">COS_300[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_300[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_305" type="array">
+      <obj_property name="ElementShortName">COS_305[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_305[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_310" type="array">
+      <obj_property name="ElementShortName">COS_310[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_310[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_315" type="array">
+      <obj_property name="ElementShortName">COS_315[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_315[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_320" type="array">
+      <obj_property name="ElementShortName">COS_320[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_320[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_325" type="array">
+      <obj_property name="ElementShortName">COS_325[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_325[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_330" type="array">
+      <obj_property name="ElementShortName">COS_330[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_330[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_335" type="array">
+      <obj_property name="ElementShortName">COS_335[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_335[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_340" type="array">
+      <obj_property name="ElementShortName">COS_340[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_340[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_345" type="array">
+      <obj_property name="ElementShortName">COS_345[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_345[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_350" type="array">
+      <obj_property name="ElementShortName">COS_350[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_350[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_355" type="array">
+      <obj_property name="ElementShortName">COS_355[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_355[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/COS_360" type="array">
+      <obj_property name="ElementShortName">COS_360[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COS_360[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_0" type="array">
+      <obj_property name="ElementShortName">SIN_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_5" type="array">
+      <obj_property name="ElementShortName">SIN_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_10" type="array">
+      <obj_property name="ElementShortName">SIN_10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_10[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_15" type="array">
+      <obj_property name="ElementShortName">SIN_15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_15[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_20" type="array">
+      <obj_property name="ElementShortName">SIN_20[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_20[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_25" type="array">
+      <obj_property name="ElementShortName">SIN_25[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_25[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_30" type="array">
+      <obj_property name="ElementShortName">SIN_30[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_30[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_35" type="array">
+      <obj_property name="ElementShortName">SIN_35[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_35[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_40" type="array">
+      <obj_property name="ElementShortName">SIN_40[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_40[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_45" type="array">
+      <obj_property name="ElementShortName">SIN_45[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_45[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_50" type="array">
+      <obj_property name="ElementShortName">SIN_50[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_50[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_55" type="array">
+      <obj_property name="ElementShortName">SIN_55[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_55[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_60" type="array">
+      <obj_property name="ElementShortName">SIN_60[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_60[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_65" type="array">
+      <obj_property name="ElementShortName">SIN_65[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_65[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_70" type="array">
+      <obj_property name="ElementShortName">SIN_70[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_70[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_75" type="array">
+      <obj_property name="ElementShortName">SIN_75[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_75[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_80" type="array">
+      <obj_property name="ElementShortName">SIN_80[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_80[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_85" type="array">
+      <obj_property name="ElementShortName">SIN_85[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_85[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_90" type="array">
+      <obj_property name="ElementShortName">SIN_90[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_90[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_95" type="array">
+      <obj_property name="ElementShortName">SIN_95[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_95[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_100" type="array">
+      <obj_property name="ElementShortName">SIN_100[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_100[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_105" type="array">
+      <obj_property name="ElementShortName">SIN_105[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_105[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_110" type="array">
+      <obj_property name="ElementShortName">SIN_110[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_110[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_115" type="array">
+      <obj_property name="ElementShortName">SIN_115[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_115[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_120" type="array">
+      <obj_property name="ElementShortName">SIN_120[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_120[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_125" type="array">
+      <obj_property name="ElementShortName">SIN_125[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_125[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_130" type="array">
+      <obj_property name="ElementShortName">SIN_130[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_130[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_135" type="array">
+      <obj_property name="ElementShortName">SIN_135[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_135[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_140" type="array">
+      <obj_property name="ElementShortName">SIN_140[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_140[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_145" type="array">
+      <obj_property name="ElementShortName">SIN_145[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_145[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_150" type="array">
+      <obj_property name="ElementShortName">SIN_150[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_150[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_155" type="array">
+      <obj_property name="ElementShortName">SIN_155[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_155[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_160" type="array">
+      <obj_property name="ElementShortName">SIN_160[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_160[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_165" type="array">
+      <obj_property name="ElementShortName">SIN_165[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_165[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_170" type="array">
+      <obj_property name="ElementShortName">SIN_170[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_170[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_175" type="array">
+      <obj_property name="ElementShortName">SIN_175[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_175[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_180" type="array">
+      <obj_property name="ElementShortName">SIN_180[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_180[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_185" type="array">
+      <obj_property name="ElementShortName">SIN_185[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_185[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_190" type="array">
+      <obj_property name="ElementShortName">SIN_190[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_190[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_195" type="array">
+      <obj_property name="ElementShortName">SIN_195[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_195[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_200" type="array">
+      <obj_property name="ElementShortName">SIN_200[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_200[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_205" type="array">
+      <obj_property name="ElementShortName">SIN_205[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_205[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_210" type="array">
+      <obj_property name="ElementShortName">SIN_210[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_210[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_215" type="array">
+      <obj_property name="ElementShortName">SIN_215[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_215[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_220" type="array">
+      <obj_property name="ElementShortName">SIN_220[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_220[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_225" type="array">
+      <obj_property name="ElementShortName">SIN_225[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_225[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_230" type="array">
+      <obj_property name="ElementShortName">SIN_230[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_230[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_235" type="array">
+      <obj_property name="ElementShortName">SIN_235[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_235[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_240" type="array">
+      <obj_property name="ElementShortName">SIN_240[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_240[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_245" type="array">
+      <obj_property name="ElementShortName">SIN_245[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_245[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_250" type="array">
+      <obj_property name="ElementShortName">SIN_250[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_250[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_255" type="array">
+      <obj_property name="ElementShortName">SIN_255[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_255[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_260" type="array">
+      <obj_property name="ElementShortName">SIN_260[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_260[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_265" type="array">
+      <obj_property name="ElementShortName">SIN_265[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_265[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_270" type="array">
+      <obj_property name="ElementShortName">SIN_270[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_270[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_275" type="array">
+      <obj_property name="ElementShortName">SIN_275[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_275[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_280" type="array">
+      <obj_property name="ElementShortName">SIN_280[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_280[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_285" type="array">
+      <obj_property name="ElementShortName">SIN_285[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_285[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_290" type="array">
+      <obj_property name="ElementShortName">SIN_290[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_290[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_295" type="array">
+      <obj_property name="ElementShortName">SIN_295[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_295[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_300" type="array">
+      <obj_property name="ElementShortName">SIN_300[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_300[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_305" type="array">
+      <obj_property name="ElementShortName">SIN_305[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_305[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_310" type="array">
+      <obj_property name="ElementShortName">SIN_310[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_310[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_315" type="array">
+      <obj_property name="ElementShortName">SIN_315[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_315[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_320" type="array">
+      <obj_property name="ElementShortName">SIN_320[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_320[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_325" type="array">
+      <obj_property name="ElementShortName">SIN_325[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_325[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_330" type="array">
+      <obj_property name="ElementShortName">SIN_330[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_330[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_335" type="array">
+      <obj_property name="ElementShortName">SIN_335[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_335[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_340" type="array">
+      <obj_property name="ElementShortName">SIN_340[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_340[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_345" type="array">
+      <obj_property name="ElementShortName">SIN_345[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_345[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_350" type="array">
+      <obj_property name="ElementShortName">SIN_350[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_350[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_355" type="array">
+      <obj_property name="ElementShortName">SIN_355[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_355[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_2_wrapper/design_2_i/point_rotate_0/U0/SIN_360" type="array">
+      <obj_property name="ElementShortName">SIN_360[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIN_360[15:0]</obj_property>
+   </wvobject>
+</wave_config>

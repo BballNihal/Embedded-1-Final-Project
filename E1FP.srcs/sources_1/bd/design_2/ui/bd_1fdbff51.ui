@@ -1,0 +1,88 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.628758",
+   "Default View_TopLeft":"-522,251",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 710 -defaultsOSRD
+preplace port port-id_led -pg 1 -lvl 5 -x 1270 -y 510 -defaultsOSRD
+preplace port port-id_btn_0 -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace port port-id_led2 -pg 1 -lvl 5 -x 1270 -y 840 -defaultsOSRD
+preplace port port-id_led3 -pg 1 -lvl 5 -x 1270 -y 860 -defaultsOSRD
+preplace port port-id_vs -pg 1 -lvl 5 -x 1270 -y 1460 -defaultsOSRD
+preplace port port-id_hs -pg 1 -lvl 5 -x 1270 -y 1440 -defaultsOSRD
+preplace port port-id_led4 -pg 1 -lvl 5 -x 1270 -y 880 -defaultsOSRD
+preplace portBus ja -pg 1 -lvl 5 -x 1270 -y 540 -defaultsOSRD
+preplace portBus R -pg 1 -lvl 5 -x 1270 -y 1170 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 5 -x 1270 -y 1190 -defaultsOSRD
+preplace portBus G -pg 1 -lvl 5 -x 1270 -y 1210 -defaultsOSRD
+preplace inst points_3d_rom_0 -pg 1 -lvl 4 -x 1150 -y 420 -defaultsOSRD
+preplace inst points_3d_ram_0 -pg 1 -lvl 4 -x 1150 -y 210 -defaultsOSRD
+preplace inst debounce_0 -pg 1 -lvl 1 -x 110 -y 720 -defaultsOSRD
+preplace inst PmodKYPD_0 -pg 1 -lvl 3 -x 820 -y 550 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 110 -y 950 -defaultsOSRD
+preplace inst points_2d_ram_0 -pg 1 -lvl 4 -x 1150 -y 700 -defaultsOSRD
+preplace inst points_2d_fb -pg 1 -lvl 4 -x 1150 -y 1020 -defaultsOSRD
+preplace inst ram_write_mux_0 -pg 1 -lvl 3 -x 820 -y 170 -defaultsOSRD
+preplace inst ram_read_mux_0 -pg 1 -lvl 3 -x 820 -y 370 -defaultsOSRD
+preplace inst clk_div_0 -pg 1 -lvl 2 -x 400 -y 950 -defaultsOSRD
+preplace inst vga_ctrl_0 -pg 1 -lvl 3 -x 820 -y 1420 -defaultsOSRD
+preplace inst clk_div_2_0 -pg 1 -lvl 1 -x 110 -y 830 -defaultsOSRD
+preplace inst project_points_0 -pg 1 -lvl 3 -x 820 -y 730 -defaultsOSRD
+preplace inst pixel_pusher_0 -pg 1 -lvl 3 -x 820 -y 1200 -defaultsOSRD
+preplace inst point_rotate_0 -pg 1 -lvl 2 -x 400 -y 340 -defaultsOSRD
+preplace inst normalize_to_fb_0 -pg 1 -lvl 3 -x 820 -y 980 -defaultsOSRD
+preplace inst points3d_init_0 -pg 1 -lvl 2 -x 400 -y 120 -defaultsOSRD
+preplace netloc Net 1 3 2 NJ 540 NJ
+preplace netloc PmodKYPD_0_decoding 1 1 3 250 460 NJ 460 980
+preplace netloc btn_0_1 1 0 1 NJ 730
+preplace netloc clk_1 1 0 3 20 890 220 890 610
+preplace netloc clk_div_0_div 1 2 2 550 1080 NJ
+preplace netloc clk_div_2_0_div 1 1 3 200 620 570 620 1050
+preplace netloc debounce_0_dbnc 1 1 2 210 720 560
+preplace netloc normalize_to_fb_0_done 1 1 4 240 880 NJ 880 990 880 NJ
+preplace netloc normalize_to_fb_0_fb_addr 1 3 1 N 960
+preplace netloc normalize_to_fb_0_fb_din 1 3 1 1030 980n
+preplace netloc normalize_to_fb_0_fb_we 1 3 1 1010 1000n
+preplace netloc normalize_to_fb_0_ram2d_addr 1 3 1 1030 740n
+preplace netloc pixel_pusher_0_B 1 3 2 NJ 1190 NJ
+preplace netloc pixel_pusher_0_G 1 3 2 NJ 1210 NJ
+preplace netloc pixel_pusher_0_R 1 3 2 NJ 1170 NJ
+preplace netloc pixel_pusher_0_addr 1 3 1 1030 1060n
+preplace netloc point_rotate_0_done 1 2 3 580 30 NJ 30 1250J
+preplace netloc point_rotate_0_ram_din 1 2 1 630 240n
+preplace netloc point_rotate_0_ram_raddr 1 2 1 600 280n
+preplace netloc point_rotate_0_ram_waddr 1 2 1 610 220n
+preplace netloc point_rotate_0_ram_we 1 2 1 560 200n
+preplace netloc point_rotate_0_reading 1 2 1 590 360n
+preplace netloc point_rotate_0_writing 1 2 1 620 180n
+preplace netloc points3d_init_0_done 1 1 4 230 480 550 480 1000J 510 NJ
+preplace netloc points3d_init_0_ram_addr 1 2 1 590 100n
+preplace netloc points3d_init_0_ram_din 1 2 1 650 80n
+preplace netloc points3d_init_0_ram_we 1 2 1 N 120
+preplace netloc points3d_init_0_reading 1 2 1 590 180n
+preplace netloc points3d_init_0_rom_addr 1 2 1 640 60n
+preplace netloc points3d_init_0_writing 1 2 1 630 100n
+preplace netloc points_2d_fb_doutb 1 2 2 630 1090 990J
+preplace netloc points_2d_ram_0_doutb 1 2 2 640 840 1040
+preplace netloc points_3d_0_douta 1 1 3 220 470 NJ 470 1010
+preplace netloc points_3d_ram_0_doutb 1 2 2 660 40 1010
+preplace netloc project_points_0_done 1 2 3 660 860 1000 860 NJ
+preplace netloc project_points_0_ram2d_addr 1 3 1 1000 640n
+preplace netloc project_points_0_ram2d_din 1 3 1 1010 680n
+preplace netloc project_points_0_ram2d_we 1 3 1 1020 700n
+preplace netloc project_points_0_ram3d_addr 1 3 1 990 250n
+preplace netloc ram_read_mux_0_addrb 1 3 1 1000 370n
+preplace netloc ram_write_mux_0_addra 1 3 1 1000 150n
+preplace netloc ram_write_mux_0_dina 1 3 1 N 190
+preplace netloc ram_write_mux_0_wea 1 3 1 990 150n
+preplace netloc vga_ctrl_0_hcount 1 2 2 660 1310 1030
+preplace netloc vga_ctrl_0_hs 1 3 2 NJ 1440 NJ
+preplace netloc vga_ctrl_0_vid 1 2 2 640 1320 980
+preplace netloc vga_ctrl_0_vs 1 2 3 620 1520 1020 1460 NJ
+levelinfo -pg 1 0 110 400 820 1150 1270
+pagesize -pg 1 -db -bbox -sgen -90 0 1360 1530
+"
+}
+0
